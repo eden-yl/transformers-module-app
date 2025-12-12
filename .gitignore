@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints
+.env
+
+# PyCharm / IDE Files
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Hugging Face Cache / Model Files
+# The transformer models are downloaded and cached here. DO NOT upload these.
+# Typically, models are saved in the user's home directory under .cache/huggingface/
+# but if you ran the code, they might be saved locally in a sub-directory too.
+# The `app.py` script will re-download them on any new machine.
+*.bin
+pytorch_model.bin
+model.safetensors
+generated_models/
